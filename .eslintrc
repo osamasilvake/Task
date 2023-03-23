@@ -6,6 +6,9 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module" // allows using import/export statements
 	},
+	"settings": {
+		"react": { "version": "detect" }
+	},
 	"env": {
 		"browser": true, // enables browser globals like window and document
 		"node": true, // enables Node.js global variables and Node.js scoping.
