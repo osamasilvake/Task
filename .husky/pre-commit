@@ -1,0 +1,5 @@
+#!/bin/sh
+# .husky/pre-commit
+
+yarn pretty:check
+yarn lint:es
