@@ -4,7 +4,8 @@
 	"plugins": ["prettier", "@typescript-eslint", "simple-import-sort"],
 	"parserOptions": {
 		"ecmaVersion": "latest",
-		"sourceType": "module" // allows using import/export statements
+		"sourceType": "module", // allows using import/export statements
+		"ecmaFeatures": { "jsx": true } // enable JSX since we are using React
 	},
 	"settings": {
 		"react": { "version": "detect" }

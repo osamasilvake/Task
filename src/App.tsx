@@ -2,9 +2,8 @@ import './App.scss';
 
 import { useState } from 'react';
 
-import viteLogo from '/vite.svg';
-
-import reactLogo from './assets/react.svg';
+import reactLogo from '/assets/svg/react.svg';
+import viteLogo from '/assets/svg/vite.svg';
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -30,5 +29,4 @@ function App() {
 		</div>
 	);
 }
-
 export default App;

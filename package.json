@@ -7,6 +7,8 @@
 		"start": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
+		"test": "vitest",
+		"test:ci": "CI=true vitest",
 		"pretty:check": "prettier --check './**/*.{js,jsx,ts,tsx,json}'",
 		"pretty:apply": "prettier --write './**/*.{js,jsx,ts,tsx,json}'",
 		"lint:es": "npx eslint './**/*.{js,jsx,ts,tsx}' --quiet",
@@ -19,6 +21,8 @@
 		"sass": "^1.59.3"
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^17.5.0",
+		"@commitlint/config-conventional": "^17.4.4",
 		"@types/node": "^18.15.5",
 		"@types/react": "^18.0.28",
 		"@types/react-dom": "^18.0.11",
@@ -31,8 +35,10 @@
 		"eslint-plugin-react": "^7.32.2",
 		"eslint-plugin-react-hooks": "^4.6.0",
 		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"husky": "^8.0.0",
 		"prettier": "^2.8.6",
 		"typescript": "^4.9.3",
-		"vite": "^4.2.0"
+		"vite": "^4.2.0",
+		"vitest": "^0.29.7"
 	}
 }
