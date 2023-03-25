@@ -12,6 +12,7 @@ const configuration = defineConfig(({ mode }) => {
 		logLevel: 'error',
 		server: { port: +env.VITE_PORT, open: false },
 		preview: { port: +env.VITE_PORT_PREVIEW, open: false },
+		build: { sourcemap: false },
 		test: {
 			globals: true,
 			exclude: [...configDefaults.exclude]
