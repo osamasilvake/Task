@@ -9,11 +9,3 @@
 * Add changelog ([c569dcd](https://gitlab.robotise.eu/robotise/roc/frontend/robot-gui/commit/c569dcd7e94cd540779fefcf95f7c96c7c10e3cf))
 * Add fonts ([62d53d9](https://gitlab.robotise.eu/robotise/roc/frontend/robot-gui/commit/62d53d99817f16768c6fdfbc1b62969929d54f3e))
 * Update ([a7adbb1](https://gitlab.robotise.eu/robotise/roc/frontend/robot-gui/commit/a7adbb122db211635ecf31aa6eba4f0e1b0ee6a8))
-
-# Changelog
-
-## [Unreleased]
-
-### Added
-
-- Keep-a-changelog plugin added.
