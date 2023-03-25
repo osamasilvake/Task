@@ -1,5 +1,10 @@
 {
 	"git": {
 		"commitMessage": "chore: Release v${version}"
+	},
+	"plugins": {
+		"@release-it/conventional-changelog": {
+			"infile": "CHANGELOG.md"
+		}
 	}
 }
