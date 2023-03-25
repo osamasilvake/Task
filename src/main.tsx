@@ -1,4 +1,6 @@
 import './i18n/i18n';
+import './../public/assets/scss/main.scss';
+import './fonts/index';
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
