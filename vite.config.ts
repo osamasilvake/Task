@@ -10,16 +10,19 @@ const configuration = defineConfig(({ mode }) => {
 
 	return {
 		plugins: [react()],
-		logLevel: 'error',
 		server: { port: +env.VITE_PORT, open: false },
 		preview: { port: +env.VITE_PORT_PREVIEW, open: false },
 		build: { sourcemap: false },
+		clearScreen: true,
 		test: {
 			globals: true,
 			exclude: [...configDefaults.exclude]
 		},
 		resolve: {
-			alias: { '@': path.resolve(__dirname, './src/app') }
+			alias: {
+				'@': path.resolve(__dirname, './src/app'),
+				'@assets': path.resolve(__dirname, './src/assets')
+			}
 		}
 	};
 });

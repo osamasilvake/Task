@@ -17,7 +17,10 @@
 		"jsx": "react-jsx",
 		"useDefineForClassFields": true,
 		"types": ["vitest/globals"],
-		"paths": { "@/*": ["./src/app/*"] }
+		"paths": {
+			"@/*": ["./src/app/*"],
+			"@/assets": ["./src/assets/*"]
+		}
 	},
 	"include": ["src"]
 }
