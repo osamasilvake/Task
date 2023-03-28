@@ -1,5 +1,5 @@
-## Robot GUI
-Application for the robot GUI
+## React + Vite Tooling
+Setup
 
 ## Releasing
 A summary of development workflow involving multiple git branches.
