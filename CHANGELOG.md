@@ -1,5 +1,13 @@
 
 
+## [0.2.1](https://gitlab.robotise.eu/robotise/roc/frontend/robot-gui/compare/0.2.0...0.2.1) (2023-03-28)
+
+
+### Bug Fixes
+
+* Alias components imports ([588919e](https://gitlab.robotise.eu/robotise/roc/frontend/robot-gui/commit/588919e99e26d264b8fa2f993ba0bd88d9e598ac))
+* Assets location ([22c1837](https://gitlab.robotise.eu/robotise/roc/frontend/robot-gui/commit/22c183712c7075250b66ff29380d2a4c4db8982a))
+
 # [0.2.0](https://gitlab.robotise.eu/robotise/roc/frontend/robot-gui/compare/0.1.0...0.2.0) (2023-03-25)
 
 
