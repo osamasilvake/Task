@@ -1,7 +1,7 @@
 const App = () => {
 	return (
 		<div className="App">
-			<h1>Robot GUI</h1>
+			<h1>Hey Robot GUI {import.meta.env.VITE_NAME}</h1>
 		</div>
 	);
 };

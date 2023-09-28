@@ -26,7 +26,8 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-i18next": "^12.2.0",
-		"sass": "^1.59.3"
+		"sass": "^1.59.3",
+		"yarn": "^1.22.19"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.5.0",
