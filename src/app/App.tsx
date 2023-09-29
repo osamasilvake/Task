@@ -1,5 +1,5 @@
 const App = () => {
-	let a;
+	// let a;
 	return (
 		<div className="App">
 			{/* i have deleted main brach scuccessfully */}
