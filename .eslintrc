@@ -1,11 +1,16 @@
 {
 	"root": true, // let eslint picks up the config at the root of the directory
 	"parser": "@typescript-eslint/parser",
+	//  The @typescript-eslint/parser is specifically designed to parse TypeScript code.
 	"plugins": ["prettier", "@typescript-eslint", "simple-import-sort"],
+	// This configuration is used to specify how ESLint should parse JavaScript
+	//  code in your project.
 	"parserOptions": {
+		//   "project": true, //TypeScript will analyze all TypeScript files in your project
 		"ecmaVersion": "latest",
 		"sourceType": "module", // allows using import/export statements
-		"ecmaFeatures": { "jsx": true } // enable JSX since we are using React
+		"ecmaFeatures": { "jsx": true } // enable JSX since we are using React,
+
 	},
 	"settings": {
 		"react": { "version": "detect" }
@@ -31,6 +36,8 @@
 		"react/react-in-jsx-scope": "off", // React 17 | cause: No React import in files
 		"simple-import-sort/imports": "error",
 		"simple-import-sort/exports": "error",
+		"no-console": "warn", // Show a warning for console statements
+		// "react/no-array-index-key": "error", // for map
 		"prettier/prettier": [
 			"error",
 			{
