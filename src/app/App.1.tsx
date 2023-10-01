@@ -8,7 +8,7 @@ export const App = () => {
 			<p> hello {import.meta.env.VITE_API_URL}</p>
 			<ul>
 				{items.map((item, index) => (
-					<li>{item}</li>
+					<li key={index}>{item}</li>
 				))}
 			</ul>
 			{/* note: jab aap yarn build karte hain toh production build, .env.production
