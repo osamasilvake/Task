@@ -10,6 +10,7 @@ export const App = () => {
 				{items.map((item, index) => (
 					<li key={index}>{item}</li>
 				))}
+				;
 			</ul>
 			{/* note: jab aap yarn build karte hain toh production build, .env.production
             ke values ko istemal karta hai aur
@@ -19,3 +20,9 @@ export const App = () => {
 		</div>
 	);
 };
+
+// What are Git Hooks?
+// Git hooks are scripts that you can set up to run at certain
+// events in the Git lifecycle. These events include different
+// stages of a commit, like before a commit (pre-commit) and after
+//  a commit (post-commit).

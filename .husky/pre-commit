@@ -7,3 +7,4 @@ yarn lint:es
 
 # Husky and lint-staged are tools that help you enforce code quality'
 #  checks and run tasks before commits to your Git repository.
+# lint-staged: tool to check spesific staged file
