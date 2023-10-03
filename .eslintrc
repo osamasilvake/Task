@@ -10,10 +10,9 @@
 		"ecmaVersion": "latest",
 		"sourceType": "module", // allows using import/export statements
 		"ecmaFeatures": { "jsx": true } // enable JSX since we are using React,
-
 	},
 	"settings": {
-		"react": { "version": "detect" }
+		"react": { "version": "detect" } // version not speified
 	},
 	"env": {
 		"browser": true, // enables browser globals like window and document

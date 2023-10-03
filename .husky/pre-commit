@@ -3,6 +3,9 @@
 
 yarn pretty:check
 yarn lint:es
+
+# npx lint-staged
+
 # //  to run tasks before a commit, you can configure the "pre-commit"
 
 # Husky and lint-staged are tools that help you enforce code quality'
