@@ -36,7 +36,7 @@
 		"simple-import-sort/imports": "error",
 		"simple-import-sort/exports": "error",
 		"no-console": "warn", // Show a warning for console statements
-		// "react/no-array-index-key": "error", // for map
+		"react/no-array-index-key": "error", // for map
 		"prettier/prettier": [
 			"error",
 			{
