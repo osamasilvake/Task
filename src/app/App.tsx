@@ -1,5 +1,8 @@
 const App = () => {
 	const items = ['item1', 'item2', 'item3'];
+	console.log('hello');
+	let a;
+
 	return (
 		<div className="App">
 			<h1>Hey Robot GUI {import.meta.env.VITE_NAME}</h1>

@@ -35,7 +35,7 @@
 		"react/react-in-jsx-scope": "off", // React 17 | cause: No React import in files
 		"simple-import-sort/imports": "error",
 		"simple-import-sort/exports": "error",
-		"no-console": "warn", // Show a warning for console statements
+		// "no-console": "warn", // Show a warning for console statements
 		"react/no-array-index-key": "error", // for map
 		"prettier/prettier": [
 			"error",
