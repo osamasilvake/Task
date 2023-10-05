@@ -4,7 +4,8 @@ const App = () => {
 	const items = ['item1', 'item2', 'item3'];
 	const [count, setCount] = useState(0);
 	// console.log(count);
-	// let a;
+	let a;
+	let b;
 	useEffect(() => {
 		document.title = `Count: ${count}`;
 	}, [count]);
