@@ -2,7 +2,7 @@
 	"root": true, // let eslint picks up the config at the root of the directory
 	"parser": "@typescript-eslint/parser",
 	//  The @typescript-eslint/parser is specifically designed to parse TypeScript code.
-	"plugins": ["prettier", "@typescript-eslint", "simple-import-sort"],
+	"plugins": ["prettier", "@typescript-eslint", "simple-import-sort", "react-hooks", "unused-imports", "react"],
 	// This configuration is used to specify how ESLint should parse JavaScript
 	//  code in your project.
 	"parserOptions": {
@@ -19,6 +19,10 @@
 		"node": true, // enables Node.js global variables and Node.js scoping.
 		"jest": true // enables unit-testing
 	},
+	// In simple terms, think of "extends" as copying someone else's rulebook
+	//  (like Airbnb's rules), and "plugins" as adding new tools to ESLint
+	//  (if needed). Since "airbnb-base" is a rulebook, you extend it, but you
+	//  don't add it as a tool or plugin.
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",
@@ -31,12 +35,22 @@
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"@typescript-eslint/no-var-requires": "off",
 		"react/prop-types": "off",
+		"no-empty-function": "off",
+		"@typescript-eslint/no-empty-function": "off",
 		// overridding edlint rule
 		"react/react-in-jsx-scope": "off", // React 17 | cause: No React import in files
+		"react/self-closing-comp": ["error", { "component": true, "html": true }],
+		"arrow-body-style": ["error", "as-needed"],
 		"simple-import-sort/imports": "error",
 		"simple-import-sort/exports": "error",
-		// "no-console": "warn", // Show a warning for console statements
+		"@typescript-eslint/no-unused-vars": "error",
+		"react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+		"react-hooks/exhaustive-deps": "error", // Checks effect dependencies
+		"unused-imports/no-unused-imports": "error",
+		// "no-console": ["warn", { "allow": ["info", "warn", "error"] }],
 		"react/no-array-index-key": "error", // for map
+		"require-await": "error",
+		"no-nested-ternary": "error",
 		"prettier/prettier": [
 			"error",
 			{
