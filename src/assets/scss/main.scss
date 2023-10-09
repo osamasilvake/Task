@@ -1,6 +1,10 @@
 @import './typography/heading.scss';
 @import './typography/paragraph.scss';
 
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 * {
 	padding: 0;
 	margin: 0;

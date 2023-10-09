@@ -33,9 +33,9 @@
 	"rules": {
 		"@typescript-eslint/explicit-function-return-type": "off",
 		"@typescript-eslint/explicit-module-boundary-types": "off",
-		"@typescript-eslint/no-var-requires": "off",
+		"@typescript-eslint/no-var-requires": "error",
 		"react/prop-types": "off",
-		"no-empty-function": "off",
+		"no-empty-function": "error",
 		"@typescript-eslint/no-empty-function": "off",
 		// overridding edlint rule
 		"react/react-in-jsx-scope": "off", // React 17 | cause: No React import in files
@@ -47,7 +47,7 @@
 		"react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
 		"react-hooks/exhaustive-deps": "error", // Checks effect dependencies
 		"unused-imports/no-unused-imports": "error",
-		// "no-console": ["warn", { "allow": ["info", "warn", "error"] }],
+		"no-console": ["warn", { "allow": ["info", "warn", "error"] }],
 		"react/no-array-index-key": "error", // for map
 		"require-await": "error",
 		"no-nested-ternary": "error",

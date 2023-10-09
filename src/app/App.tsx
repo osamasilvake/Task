@@ -1,11 +1,11 @@
+import '../assets/scss/main.scss';
+
 import { useEffect, useState } from 'react';
 
 const App = () => {
 	const items = ['item1', 'item2', 'item3'];
 	const [count, setCount] = useState(0);
-	// console.log(count);
-	let a;
-	let b;
+
 	useEffect(() => {
 		document.title = `Count: ${count}`;
 	}, [count]);
@@ -71,7 +71,8 @@ const App = () => {
 
 	// fetchData();
 	//////////////////////////////////
-	// "arrow-body-style": ["error", "as-needed"],
+	//This rule can enforce or disallow the use of braces around arrow function body.
+	// "arrow-body-style": ["error", "as-needed"], //always,never
 
 	// type FooReturnType = {
 	// 	bar: {
@@ -94,7 +95,7 @@ const App = () => {
 	// const foo = () => {};
 
 	return (
-		<div className="App">
+		<div className="App bg-slate-500">
 			<h1>Hey Robot GUI {import.meta.env.VITE_NAME}</h1>
 			<p> hallo {import.meta.env.VITE_API_URL}</p>
 			<ul>
@@ -103,8 +104,6 @@ const App = () => {
 				))}
 			</ul>
 			<button onClick={() => setCount(count + 1)}>Increment</button>
-			{/* <input type="text" > */}
-			{/* <button></button> */}
 		</div>
 	);
 };

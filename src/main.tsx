@@ -1,8 +1,9 @@
 import './i18n/i18n';
 import '@assets/scss/main.scss';
 import '@assets/fonts/index';
-import { createRoot } from 'react-dom/client';
+
 import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 
 import App from '@/App';
 // import App from '@/App.1';
