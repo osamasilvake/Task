@@ -5,7 +5,6 @@ import { useEffect, useState } from 'react';
 const App = () => {
 	const items = ['item1', 'item2', 'item3'];
 	const [count, setCount] = useState(0);
-
 	useEffect(() => {
 		document.title = `Count: ${count}`;
 	}, [count]);
