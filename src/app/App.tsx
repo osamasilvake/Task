@@ -11,6 +11,9 @@ const App = () => {
 
 	const Addtwonum = (a: number, b: number) => a + b;
 	Addtwonum(3, 4);
+
+	const Subtwonum = (a: number, b: number) => a + b;
+	Subtwonum(7, 4);
 	/*eslint no-ternary: "error"*/
 	// const value1 = 5;
 	// const value2 = 10;
