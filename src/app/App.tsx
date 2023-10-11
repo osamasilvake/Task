@@ -9,6 +9,8 @@ const App = () => {
 		document.title = `Count: ${count}`;
 	}, [count]);
 
+	const addtwonum = (a: number, b: number) => a + b;
+	addtwonum(3, 4);
 	/*eslint no-ternary: "error"*/
 	// const value1 = 5;
 	// const value2 = 10;
