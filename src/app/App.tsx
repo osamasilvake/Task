@@ -14,26 +14,7 @@ const App = () => {
 
 	const Subtwonum = (a: number, b: number) => a - b;
 	Subtwonum(7, 4);
-	/*eslint no-ternary: "error"*/
-	// const value1 = 5;
-	// const value2 = 10;
-	// const value3 = 20;
-	// const result = condition1 ? value1 : condition2 ? value2 : condition3 ? value3 : defaultValue;
-	// console.log(result);
 
-	// let result;
-	// const value1 = 5;
-	// const value2 = 10;
-	// const value3 = 20;
-	// if (condition1) {
-	// 	result = value1;
-	// } else if (condition2) {
-	// 	result = value2;
-	// } else if (condition3) {
-	// 	result = value3;
-	// } else {
-	// 	result = defaultValue;
-	// }
 	////////////////////////
 	// function getGreeting(timeOfDay: string): string {
 	// 	return timeOfDay === 'morning' ? 'Good morning!' : 'Hello!';
