@@ -1,5 +1,12 @@
 
 
+# [0.4.0](https://github.com/osamasilvake/M-calculator/compare/0.3.1...0.4.0) (2023-10-12)
+
+
+### Features
+
+* Add commit for function ([11b42f2](https://github.com/osamasilvake/M-calculator/commit/11b42f27999526626561bac8fe94e5855b2914af))
+
 ## [0.3.1](https://github.com/osamasilvake/M-calculator/compare/0.3.0...0.3.1) (2023-10-12)
 
 
