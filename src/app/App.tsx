@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 
 const App = () => {
 	const items = ['item1', 'item2', 'item3'];
-	const [count, setCount] = useState(0);
+	const [number, setNumber] = useState(0);
 	useEffect(() => {
-		document.title = `Count: ${count}`;
-	}, [count]);
+		document.title = `Count number: ${number}`;
+	}, [number]);
 
 	const Addtwonum = (a: number, b: number) => a + b;
 	Addtwonum(3, 4);
@@ -88,7 +88,7 @@ const App = () => {
 					<li key={item}>{item}</li>
 				))}
 			</ul>
-			<button onClick={() => setCount(count + 1)}>Increment</button>
+			<button onClick={() => setNumber(number + 1)}>Increment</button>
 		</div>
 	);
 };
