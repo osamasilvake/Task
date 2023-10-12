@@ -8,7 +8,7 @@ const App = () => {
 	useEffect(() => {
 		document.title = `Count number: ${number}`;
 	}, [number]);
-
+	// add two number
 	const Addtwonum = (a: number, b: number) => a + b;
 	Addtwonum(3, 4);
 
