@@ -1,5 +1,12 @@
 
 
+## [0.3.1](https://github.com/osamasilvake/M-calculator/compare/0.3.0...0.3.1) (2023-10-12)
+
+
+### Bug Fixes
+
+* Update usestate hook ([d88f623](https://github.com/osamasilvake/M-calculator/commit/d88f6236263904f64f5b9ae2e2ad60eff1a74bcb))
+
 # 0.3.0 (2023-10-12)
 
 
