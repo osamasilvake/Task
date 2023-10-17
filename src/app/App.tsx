@@ -3,7 +3,7 @@ import '../assets/scss/main.scss';
 const App = () => (
 	<div className=" bg-cyan-500">
 		<form>
-			<h1>Login</h1>
+			<h3>Login</h3>
 			<p>Please enter your credentials to login</p>
 			<input type="text" placeholder="username" />
 			<input type="password" placeholder="password" />
