@@ -1,10 +1,8 @@
 import '../assets/scss/main.scss';
 
-import Subscription from './Subscription';
-
 const App = () => (
-	<div className="bg-gradient-to-t from-white to-violet-300">
-		<Subscription />
+	<div>
+		<h1>hello</h1>
 	</div>
 );
 export default App;
