@@ -1,6 +1,6 @@
 import logo from '../../../assets/images/logo.svg';
 import message from '../../../assets/images/message.png';
-import CompanyInfo from './CompanyInfo';
+import CompanyInfo from './company-info/CompanyInfo';
 import NewslatterForm from './NewslatterForm';
 
 const Footer = () => (
