@@ -5,11 +5,11 @@ import NewslatterForm from './NewslatterForm';
 
 const Footer = () => (
 	<footer className="bg-black mx-14 my-8 rounded-401">
-		<div className="max-w-301 mx-auto px-6 pb-20 md:px-20">
-			<section className="flex flex-col justify-between border-b-[1px] border-103 pt-20 pb-16 xl:flex-row">
+		<div className="max-w-301 mx-auto px-6 pb-20 lg:px-20">
+			<section className="flex flex-col justify-between border-b-[1px] border-103 pt-10 pb-16 sm:pt-20 xl:flex-row">
 				<div className="flex flex-col items-center xl:w-201 xl:items-start">
 					<img src={message} alt="Message icon" className="w-20" />
-					<h1 className="text-3xl text-center text-white pb-8 pt-8 leading-tight sm:text-5xl sm:text-start lg:text-501">
+					<h1 className="text-3xl text-center text-white pb-8 pt-8 leading-tight sm:text-5xl lg:text-start lg:text-501">
 						Keep up with the latest
 					</h1>
 					<p className="text-white text-502 text-center md:text-start">
