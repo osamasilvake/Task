@@ -9,10 +9,15 @@ export default {
 				103: '#696969 '
 			},
 			width: {
-				201: '32.4rem'
+				201: '32.4rem',
+				202: '27rem'
 			},
 			maxWidth: {
 				301: '76.25rem'
+			},
+			fontSize: {
+				501: '3.563rem',
+				502: '1.188rem'
 			}
 		},
 		borderRadius: {
