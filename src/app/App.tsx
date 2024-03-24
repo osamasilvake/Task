@@ -1,8 +1,6 @@
 import '../assets/scss/main.scss';
 
-const App = () => (
-	<div>
-		<h1>hello</h1>
-	</div>
-);
+import Footer from './screens/footer/Footer';
+
+const App = () => <Footer />;
 export default App;
