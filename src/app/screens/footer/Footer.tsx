@@ -4,7 +4,7 @@ import CompanyInfo from './company-info/CompanyInfo';
 import NewslatterForm from './NewslatterForm';
 
 const Footer = () => (
-	<footer className="bg-black mx-14 my-8 rounded-401">
+	<footer className="bg-black mx-6 my-8 rounded-401 lg:mx-14">
 		<div className="max-w-301 mx-auto px-6 pb-20 lg:px-20">
 			<section className="flex flex-col justify-between border-b-[1px] border-103 pt-10 pb-16 sm:pt-20 xl:flex-row">
 				<div className="flex flex-col items-center xl:w-201 xl:items-start">
