@@ -19,7 +19,7 @@ const Footer = () => (
 				<NewslatterForm />
 			</section>
 			<section className="flex flex-col justify-between pt-20 xl:flex-row">
-				<div className="xl:w-64">
+				<div className="xl:w-72 pl-4">
 					<div className="flex text-3xl gap-2 pt-1">
 						<img src={logo} alt="logo" className="mb-5" />
 						<p className="text-white">IQTEST.ai</p>

@@ -7,7 +7,7 @@ const NewslatterForm = () => (
 			<input
 				type="email"
 				placeholder="Enter Your email"
-				className="w-full rounded-401 outline-none border-2 focus:border-blue-600 bg-102 focus:bg-white px-7 py-3 placeholder:text-gray-500 placeholder:text-lg sm:pr-28 md:w-96 sm:px-5 sm:py-4"
+				className="w-full rounded-401 outline-none border-2 focus:border-blue-600 bg-102 focus:bg-white px-7 py-3.5 placeholder:text-gray-500 placeholder:text-lg sm:pr-28 md:w-96 sm:px-5 sm:py-4"
 			/>
 			<Button>Subscribe</Button>
 		</div>
